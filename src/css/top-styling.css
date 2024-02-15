@@ -1,0 +1,14 @@
+h1 {
+  color: rgb(184, 49, 49);
+}
+
+.App__AvatarImage {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: -12px;
+}
+
+.App__AvatarImage1 {
+  margin-left: -4px;
+}/*# sourceMappingURL=top-styling.css.map */
