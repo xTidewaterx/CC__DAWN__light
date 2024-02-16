@@ -30,7 +30,7 @@ const DataList2
     = () => {
         return (
             <div className="container">
-            <h1 className="heading">Flower Gallery</h1>
+            <h1 className="heading">CC</h1>
             <Swiper
             id="swiper__perspective"
               effect={'coverflow'}
@@ -81,15 +81,45 @@ const DataList2
                 <img src={slide_image_7} alt="slide_image" />
                 <h3>Lorem Ipsum</h3>
               </SwiperSlide>
+
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_1} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_2} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_3} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_4} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_5} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_6} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
+              <SwiperSlide id="swiper-slide-alternative">
+                <img src={slide_image_7} alt="slide_image" />
+                <h3>Lorem Ipsum</h3>
+              </SwiperSlide>
       
-              <div className="slider-controler">
+      
+              <div className="slider-controler" >
                 <div className="swiper-button-prev slider-arrow">
                   <ion-icon name="arrow-back-outline"></ion-icon>
                 </div>
                 <div className="swiper-button-next slider-arrow">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </div>
-                <div className="swiper-pagination"></div>
+                <div className="swiper-pagination" id="swiper__optionsCenter"></div>
               </div>
             </Swiper>
           </div>

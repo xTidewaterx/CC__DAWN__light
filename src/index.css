@@ -287,11 +287,8 @@ body {
 }
 
 .slider-controler {
-  position: relative;
-  bottom: 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+
 }
 
 .slider-controler .swiper-button-next {
@@ -388,6 +385,8 @@ tml body div#root div.App div.container div.swiper.swiper_container.swiper-cover
 }
 .swiper-wrapper {
   width: 40% !important;
+  padding-bottom: 20px;
+  height: 1900px !important;
 }
 /*add active class on current selection, then have fade white on rest, gloom light*/
 /*add css fade on active class, remove fade on active*/
@@ -402,12 +401,60 @@ tml body div#root div.App div.container div.swiper.swiper_container.swiper-cover
   flex: auto;
 }
 
+#swiper__perspective {
+
+  height: 600px;
+}
 .swiper__perspective .swiper-conquest {
 
   flex: auto;
+
 }
 
 .swiper__fogFade .swiper__topLevelFade {
 
   flex: auto !important;
+}
+
+#swiper__optionsCenter {
+
+
+
+  
+
+  position: absolute;
+  left: 43.5%;
+
+
+  
+
+}
+
+.slider-controler {
+
+display: flex;
+margin: 0 auto;
+
+}
+
+.swiper-button-next {
+  margin-top: 190px !important;
+  display: block;
+
+}
+
+.swiper-button-prev {
+  margin-top: 190px !important;
+  display: block;
+
+}
+
+h3 {
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+
+  margin-top: 10vh;
 }

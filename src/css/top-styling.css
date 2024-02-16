@@ -11,4 +11,15 @@ h1 {
 
 .App__AvatarImage1 {
   margin-left: -4px;
+}
+
+.dataList__Illustration {
+  width: 100px;
+}
+
+.container h1 {
+  margin-bottom: 100px;
+}
+.container img {
+  filter: sepia(100%) saturate(300%) brightness(70%) hue-rotate(295deg);
 }/*# sourceMappingURL=top-styling.css.map */
