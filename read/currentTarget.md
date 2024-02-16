@@ -1,4 +1,39 @@
-1.currentTarget::: create something ,the entire thing, then it can fight for change
+1.currentTarget:::  
+change this tutorial so it works, 1200 value change lower to not go outside, have 
+
+
+css selector::
+.swiper
+html body div#root div.App div.container div.swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress
+--change it so that perspecitve is only 500px
+
+---.swiper-wrapper
+html body div#root div.App div.container div.swiper.swiper_container.swiper-coverflow.swiper-3d.swiper-initialized.swiper-horizontal.swiper-watch-progress div.swiper-wrapper
+---change width to 40% without distortion include all middle position relative
+display flex important combined with margin 0
+
+
+---width: 40%; on swiper wrapper -- then perspective 500px on outer layer swiper swiper container
+https://github.com/emetdas/Youtube-code/blob/master/web%20components/React-Swiper-Slider-3D-Coverflow/final/package.json
+
+
+
+
+have image carousel, it be a div that overflows width, then by click arrows, images float in from side, have fade, any image all white, width of current, show depending on screen delta between 80vw - max 700px
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create something ,the entire thing, then it can fight for change
 
 
 
